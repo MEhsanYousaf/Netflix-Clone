@@ -1,0 +1,80 @@
+* p {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+@media screen and (max-width:576px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .subscribe button {
+    font-size: 11px !important;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .main {
+    margin: 20px 250px 10px 250px !important;
+  }
+}
+
+@media screen and (min-width:991px) {
+  .main {
+    margin: 20px 180px 10px 180px;
+  }
+}
+
+.form-bg {
+  background-color: rgb(20, 20, 19, 0.5);
+  color: white;
+}
+
+.form-bg:focus {
+  background-color: rgb(20, 20, 19, 0.5) !important;
+  color: white;
+}
+
+.form-bg::placeholder {
+  color: grey;
+}
+
+.netflix-card {
+  height: 100%;
+
+}
+
+.gradient {
+  background: linear-gradient(135deg, rgb(25, 31, 66), rgb(33, 17, 29));
+
+}
+
+p {
+  color: #acacb7;
+}
+
+.faq-bg, .faq-bg-a {
+  background-color: rgba(75, 75, 71, 0.7);
+}
+
+
+.faq-bg:hover {
+  background-color: rgba(75, 75, 71, 1);
+}
+
+.faq-icon {
+  transition: transform 0.3s ease;
+}
+
+.faq-toggle:not(.collapsed) .faq-icon{
+  transform: rotate(45deg);
+}
+.lang,.lang:active,.lang:focus,.lang:hover{
+ border: none !important;
+}
